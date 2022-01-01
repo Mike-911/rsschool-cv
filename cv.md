@@ -35,3 +35,32 @@ Now I want to learn how to pave roads and make other people's lives better, not 
 * Git, GitHub
 * VS Code
 * Adobe Photoshop
+
+----
+
+## Code example:
+
+``` 
+function sum(a, b) 
+{
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+```
+
+---
+
+## Education
+
+__Belarusian State Agricultural Academy,__
+specialty Geodetic support
+
+----
+
+## Languages:
+
+* Russian - Native
+* English - A1 (
+Studied at school and university)
