@@ -33,6 +33,9 @@ img{vertical-align: top;}
 /*_________Конец обнуления___________*/
 
 /*__________Старт стилей body ________*/
+html {
+    scroll-behavior: smooth;
+  }
 
 .body {      
     font-family: 'Inter', sans-serif;
@@ -47,6 +50,27 @@ img{vertical-align: top;}
 .wrapper {
     max-width: 1440px;    
     margin: 0 auto;
+}
+
+.section__title {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    background: url(./assets/svg/section-title-line.svg) no-repeat center;
+    justify-content: center;
+    
+}
+
+.section__title-text {
+    text-align: center;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #BDAE82;
+    background: black;
+    padding: 0 20px;
 }
 /*__________Конец стилей body ________*/
 
@@ -221,3 +245,42 @@ img{vertical-align: top;}
     margin: 0 20px 10px;
 }
 /*__________Конец стилей Skils ________*/
+
+/*__________Старт стилей Portfolio ________*/
+
+.portfolio__bottoms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 60px;
+}
+
+.portfolio__bottom {
+    width: 220px;
+    height: 55px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #BDAE82;
+    border: 2px solid #BDAE82;
+    background: rgba(189, 174, 130, 0);
+    transition: 0.5s;
+}
+
+.portfolio__bottom:hover {
+    background: rgba(189, 174, 130, 1);
+    color: white;
+}
+
+.portfolio_foto{
+    display: flex;
+    grid-gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+
+/*__________Стоп стилей Portfolio ________*/
