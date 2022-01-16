@@ -1,0 +1,96 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active {outline: none;}
+a:focus, a:active {outline: none;}
+nav, footer, header,aside {display:block;}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14 px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input, button, textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+
+a :hover{text-decoration: none;}
+ul li {list-style: none;}
+img{vertical-align: top;}
+/*_________Конец обнуления___________*/
+
+/*__________Старт стилей body ________*/
+
+.body {      
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    background-color: black;
+    
+    }
+.wrapper {
+    max-width: 1440px;    
+    margin: 0 auto;
+}
+/*__________Конец стилей body ________*/
+
+
+
+/*__________Старт стилей header ________*/
+
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;    
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.header__logo-pic {
+    margin: 20px auto 20px 20px;
+}
+
+.header__item {
+    margin:20px 30px;
+    line-height: 50px;
+}
+
+.header__link {
+    text-decoration: none;
+    line-height: 50px;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.header__link:hover, .header__link:focus{
+   
+    border-bottom: 1px solid white;
+}
+.header__link:active{
+    opacity: 0.5;
+}
+
+/*__________Конец стилей header ________*/
+
+/*__________Старт стилей header ________*/
