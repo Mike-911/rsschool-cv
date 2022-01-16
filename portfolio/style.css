@@ -53,12 +53,21 @@ img{vertical-align: top;}
 
 
 /*__________Старт стилей header ________*/
-
+.wrapper__bachground {
+    background: url(./assets/img/bg.jpg) no-repeat;
+    background-position: center 0;
+    z-index: 2;
+}
+.header {
+    margin-bottom: 160px;
+}
 .header__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    justify-content: space-between;    
+    justify-content: space-between; 
+    
+
 }
 
 .header__list {
@@ -91,6 +100,52 @@ img{vertical-align: top;}
     opacity: 0.5;
 }
 
+.header_lg{
+    display: flex;
+    flex-wrap: wrap;
+
+}
 /*__________Конец стилей header ________*/
 
-/*__________Старт стилей header ________*/
+/*__________Старт стилей hero ________*/
+
+.hero {
+    margin-left: 80px;
+}
+.hero__title{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.hero__intro {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    max-width: 470px;
+    margin-bottom: 25px;
+}
+.hero__submit {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    padding: 8px 72px;
+    background-color: #BDAE82;
+    transition: 0.2s;
+    margin-bottom: 330px;
+}
+.hero__submit:hover{
+    color:white
+}
+/*__________Конец стилей hero ________*/
