@@ -52,6 +52,7 @@ html {
     margin: 0 auto;
 }
 
+
 .section__title {
     display: flex;
     margin-top: 100px;
@@ -284,3 +285,30 @@ html {
 }
 
 /*__________Стоп стилей Portfolio ________*/
+
+/*__________Старт стилей Video ________*/
+
+.video__player{
+    margin: 0 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.video__player-element{
+    max-width: 100%;
+}
+.video__player__element{
+    position: absolute;
+ 
+}
+
+.video__player-button {
+    position: absolute;
+
+}
+.video__player-button:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+contrast(87%);
+/*__________Стоп стилей Video ________*/
