@@ -73,6 +73,24 @@ html {
     background: black;
     padding: 0 20px;
 }
+
+.buttom__submit {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    padding: 8px 72px;
+    background-color: #BDAE82;
+    transition: 0.2s;
+    margin-bottom: 330px;
+    cursor: pointer;
+}
+.buttom__submit:hover{
+    color:white
+}
 /*__________Конец стилей body ________*/
 
 
@@ -162,23 +180,7 @@ html {
     max-width: 470px;
     margin-bottom: 25px;
 }
-.hero__submit {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-    color: #000000;
-    padding: 8px 72px;
-    background-color: #BDAE82;
-    transition: 0.2s;
-    margin-bottom: 330px;
-    cursor: pointer;
-}
-.hero__submit:hover{
-    color:white
-}
+
 /*__________Конец стилей hero ________*/
 
 
@@ -311,4 +313,58 @@ img.video__player-element{
 .video__player-button:hover {
     filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
 contrast(87%);
+}
 /*__________Стоп стилей Video ________*/
+
+/*__________Старт стилей Price ________*/
+
+.price__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.price__card {
+    max-width: 450px;
+    border: 1px solid #BDAE82;
+}
+
+.price__card-title {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 43px;
+}
+
+.price__card-value {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #BDAE82;
+    margin-top: 20px;
+}
+
+.price__card-info {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.price__card_button {
+    margin: 40px 115px;
+    padding: 7px 38px;
+  }
